@@ -15,10 +15,10 @@ Download your city map from Google.
 Create a Django project and start an app.
 
 ## Step 4
-Open the file in VS code and add and edit the html files.
+Open the file in VS code and create and edit the html files for each place in the map
 
 ## Step 5
-Execute the program and publish them
+Make migrations and run the program using python manage.py runserver 8000
 
 
 # Code:
@@ -56,17 +56,24 @@ kolathur.html
     <head>
         <title>Kolathur</title>
     </head>
-    <body bgcolor="blue">
+    <body bgcolor="black">
         <h1 align="center">
-            <font color="red"><b>Kolathur</b></font>
-            
+            <font color="yellow"><b>Kolathur</b></font>
         </h1>
-        <hr size="3" color="red">
-        <img align="center" src="kolathur.png">
+        <h2 align="center">
+            <font color="yellow">My Area</font>
+        </h2>
+        <hr size="3" color="yellow">
+        <center><img src="kolathur.png"></center>
         <p align="justify">
             <font face="Kolathur" size="5">
-                
-                Kolathur is a neighborhood located in the northwestern region of Chennai, India.
+            <font color="yellow">   
+            <h3 align="center">
+                Kolathur is a neighborhood located in the northwestern region of Chennai, Tamil Nadu, India.
+                It is a place surrounded by a lot of lakes and most popular for its fish market. 
+                Kolathur has many schools within it self Don Bosco, Everwin and St.John's are some of them
+            </h3>
+            </font>
             </font>
         </p>
     </body>
@@ -78,15 +85,26 @@ donbosco.html
     <head>
         <title>Don Bosco School</title>
     </head>
-    <body bgcolor="blue">
+    <body bgcolor="white">
         <h1 align="center">
-            <font color="black"><b>Don Bosco School</b></font>
+            <font color="blue"><b>Don Bosco School</b></font>
         </h1>
-        <hr size="3" color="black">
-        <img align="middle" src="donbosco.jpg">
+        <h2 align="center">
+            <font color="blue">My School</font>
+        <hr size="3" color="red">
+        <center>
+        <img align="middle" src="donbosco.jpg" height="400" width="350">
+        </center>
         <p align="justify">
             <font face="My School" size="5">
-                The School aims at inculcating a sound Christian and human formation, for the TOTAL DEVELOPMENT OF THE WHOLE PERSON, making the student a well integrated person, spiritually, socially, intellectually, morally and culturally well equipped and ready to collaborate with others in building a just society. 1.Spiritual : We promote in all the students a strong foundation of their faith and appreciation of other religions. Facilities are provided for the on going reflection, moral and religious instruction,meaningful celebrations of feasts, personal and group prayer, reading the Bible, seminars and campus.
+                <font color="blue">
+                <h3 align="center">  
+                This is a popular school in Kolathur, located at Srinivasa Nagar. 
+                This school offers matriculation syllabus from kindergarden to higher secondary schooling.
+                This school has a moderate infrastructure with good teachers.
+                I completed my schooling here.
+                </h3>
+                </font>
             </font>
         </p>
     </body>
@@ -98,19 +116,27 @@ policestation.html
     <head>
         <title>Rajamangalam Police Station</title>
     </head>
-    <body bgcolor="brown">
+    <body bgcolor="red">
         <h1 align="center">
-            <font color="blue"><b>RajamangalamPolice Staion</b></font>
+            <font color="white"><b>Rajamangalam Police Staion</b></font>
         </h1>
-        <hr size="3" color="blue">
+        <h2 align="center">
+            <font color="white">Police station</font>
+        <hr size="3" color="white">
         <img align="middle" src="rajamangalam.jpg">
         <p align="justify">
             <font face="Police Station" size="5">
-                A local Police Station in the Kolathur neighborhood.
+            <font color="white">
+                <h3 align="center">
+                A local Police Station in the Kolathur neighborhood, located in Rajamangalam.
+                </h3>
+            </font>
             </font>
         </p>
     </body>
 </html>
+
+
 ```
 ```
 fishmarket.html
@@ -118,15 +144,24 @@ fishmarket.html
     <head>
         <title>Kolathur Fish Market</title>
     </head>
-    <body bgcolor="green">
+    <body bgcolor="cyan">
         <h1 align="center">
-            <font color="red"><b>Kolathur Fish Market</b></font>
+            <font color="blue"><b>Kolathur Fish Market</b></font>
         </h1>
-        <hr size="3" color="red">
+        <h2 align="center">
+            <font color="blue">Famous in Kolathur</font>
+        </h2>
+        <hr size="3" color="blue">
+        <center>
         <img align="middle" src="fishmarket.jpg" height="320" width="540">
+        </center>
         <p align="justify">
             <font face="Popular Fish Market" size="5">
+                <font color="blue">   
+                <h3 align="center">
                A popular fish market where wide variety of pet fishes are sold, many people from all over chennai purchase here the pet fishes.
+               </h3>
+               </font>
             </font>
         </p>
     </body>
@@ -138,15 +173,25 @@ srigangacinemas.html
     <head>
         <title>Sri Ganga Cinemas</title>
     </head>
-    <body bgcolor="red">
+    <body bgcolor="black">
         <h1 align="center">
-            <font color="yellow"><b>Sri Ganga Cinemas</b></font>
+            <font color="red"><b>Sri Ganga Cinemas</b></font>
         </h1>
+        <h2 align="center">
+            <font color="red">Popular Cinema Theatre</font>
+        </h2>
         <hr size="3" color="yellow">
+        <center>
         <img align="middle" src="cinemas.png">
+        </center>
         <p align="justify">
             <font face="Ganga Cinemas" size="5">
-                Sri Ganga Cinema - Kolathur is a popular theatre located at 84/6, Villivakkam Redhills Road, Near Axis Bank ATM, Kolathur, North, Chennai. Sri Ganga Cinema - Kolathur has 3 screens.
+                <font color="yellow">   
+                    <h3 align="center">
+                Sri Ganga Cinema - Kolathur is a popular theatre has 3 screens.
+                It is the popular theatre in the locality
+                </h3>
+                </font>
             </font>
         </p>
     </body>
@@ -156,17 +201,28 @@ srigangacinemas.html
 l1gaming.html
 <html>
     <head>
-        <title>Kolathur</title>
+        <title>L1 Gaming Cafe</title>
     </head>
-    <body bgcolor="grey">
+    <body bgcolor="black">
         <h1 align="center">
             <font color="green"><b>L1 Gaming cafe</b></font>
         </h1>
+        <h2 align="center">
+            <font color="green">Popular gaming spot</font>
+        </h2>
         <hr size="3" color="green">
-        <img align="middle" src="l1.jpg" height="480" width="240">
+        <center>
+        <img align="middle" src="l1.jpg" height="480" width="280">
+        </center>
         <p align="justify">
             <font face="Gaming Paradise" size="5">
-                A small business resembling an Internet cafe but with an emphasis on computer games. Games are often networked and visitors can play against each other.  
+                <font color="green">   
+                    <h3 align="center">
+                A small business resembling an Internet cafe but with an emphasis on computer games.
+                Games are often networked and visitors can play against each other.
+                It has both console gaming and PC gaming, namely Playstation 5 and Gaming PCs.
+                </h3>
+                </font>  
             </font>
         </p>
     </body>
@@ -175,15 +231,13 @@ l1gaming.html
 
 
 # Output:
-![Alt text](<Screenshot 2023-11-22 091607.png>)
-![Alt text](<Screenshot 2023-11-22 091626.png>)
-![Alt text](<Screenshot 2023-11-22 091658.png>)
-![Alt text](<Screenshot 2023-11-22 091728.png>)
-![Alt text](<Screenshot 2023-11-22 091750.png>)
-![Alt text](<Screenshot 2023-11-22 091812.png>)
-![Alt text](<Screenshot 2023-11-22 091827.png>)
-
-
+![Alt text](<Screenshot 2023-11-22 141358.png>)
+![Alt text](<Screenshot 2023-11-22 141421.png>)
+![Alt text](<Screenshot 2023-11-22 141458.png>)
+![Alt text](<Screenshot 2023-11-22 141516.png>)
+![Alt text](<Screenshot 2023-11-22 141536.png>)
+![Alt text](<Screenshot 2023-11-22 141609.png>)
+![Alt text](<Screenshot 2023-11-22 141648.png>)
 
 # Result:
 The program for implementing image maps using HTML is executed successfully
