@@ -1,4 +1,4 @@
-# Ex-05-Places Around Me
+# Ex-06-Places Around Me
 NAME: SAI VISHAL D<BR>
 REG.NO: 212223230180
 
