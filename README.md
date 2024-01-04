@@ -1,6 +1,7 @@
-# Places Around Me
-# Name: SAI VISHAL D
-# Ref.no.: 23013576
+# Ex-05-Places Around Me
+NAME: SAI VISHAL D
+REG.NO: 212223230180
+
 # Aim:
 To develop a website to display details about the places around my house.
 
@@ -15,10 +16,10 @@ Download your city map from Google.
 Create a Django project and start an app.
 
 ## Step 4
-Open the file in VS code and create and edit the html files for each place in the map
+Open the file in VS code and create and edit the html files for each place in the map.
 
 ## Step 5
-Make migrations and run the program using python manage.py runserver 8000
+Make migrations and run the program using python manage.py runserver 8000.
 
 
 # Code:
@@ -240,5 +241,5 @@ l1gaming.html
 ![Alt text](<Screenshot 2023-11-22 141648.png>)
 
 # Result:
-The program for implementing image maps using HTML is executed successfully
+The program for implementing image maps using HTML is executed successfully.
 
