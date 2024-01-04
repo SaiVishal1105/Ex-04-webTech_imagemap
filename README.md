@@ -2,27 +2,27 @@
 NAME: SAI VISHAL D<BR>
 REG.NO: 212223230180
 
-# Aim:
+## Aim:
 To develop a website to display details about the places around my house.
 
-# Design Steps:
-## Step 1
+## Design Steps:
+### Step 1
 Create a Django admin interface.
 
-## Step 2
+### Step 2
 Download your city map from Google.
 
-## Step 3
+### Step 3
 Create a Django project and start an app.
 
-## Step 4
+### Step 4
 Open the file in VS code and create and edit the html files for each place in the map.
 
-## Step 5
+### Step 5
 Make migrations and run the program using python manage.py runserver 8000.
 
 
-# Code:
+## Program:
 ```
 map.html
 <html>
@@ -231,7 +231,7 @@ l1gaming.html
 ```
 
 
-# Output:
+## Output:
 ![Alt text](<Screenshot 2023-11-22 141358.png>)
 ![Alt text](<Screenshot 2023-11-22 141421.png>)
 ![Alt text](<Screenshot 2023-11-22 141458.png>)
@@ -240,6 +240,6 @@ l1gaming.html
 ![Alt text](<Screenshot 2023-11-22 141609.png>)
 ![Alt text](<Screenshot 2023-11-22 141648.png>)
 
-# Result:
+## Result:
 The program for implementing image maps using HTML is executed successfully.
 
